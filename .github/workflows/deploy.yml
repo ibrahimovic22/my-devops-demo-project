@@ -25,11 +25,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-devops-demo:latest
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: website
-          path: .
+          tags: zlatanibra10/my-devops-demo:latest
+          provenance: false
