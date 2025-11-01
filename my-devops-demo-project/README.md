@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My DevOps Demo Project
 
 A simple HTML and CSS website demonstrating a basic DevOps workflow with GitHub Actions and GitHub Pages.
@@ -30,6 +29,3 @@ my-devops-demo-project/
 ---
 
 © 2025 My DevOps Demo Project. All rights reserved.
-=======
-# my-devops-demo-project
->>>>>>> ad1801e2bdaa5df09b82ea6c919fb005ca6ce256
